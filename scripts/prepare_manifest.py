@@ -32,7 +32,7 @@ def main() -> None:
             "source_image": str(source_images[name].resolve()),
             "target_image": str(target_images[name].resolve()),
             "mask_image": str(mask_images[name].resolve()),
-            "prompt": args.default-prompt,
+            "prompt": args.default_prompt,
         }
         for name in shared_names
     ]
