@@ -3,4 +3,11 @@ __pycache__/
 outputs/
 demo_data/
 data/
+models/
+电极露铜数据/
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
 .DS_Store
